@@ -1,10 +1,12 @@
 import { Auth0Provider } from '@bcwdev/auth0provider'
-import { valuesService } from '../services/ValuesService.js'
 import BaseController from '../utils/BaseController.js'
 
 const comments = {
   'videoId1': []
 }
+
+// http://localhost:3000/api/comments
+// http://localhost:3000/api/comments/videoId1
 
 
 export class CommentsController extends BaseController {
